@@ -8,15 +8,16 @@ body{
 }
 
 #cabecera{
-    background:rgb(36, 190, 119);
+    background:rgb(36, 190, 177);
     box-shadow:0 2px 20px 0 rgba(0,0,0,.5);
     color:#fff;
     font-weight:700;
     margin:0;
     padding:.5em;
+   
 }
-#cabecera a{
-align-items: end;
+#cabecera .links{
+    justify-content: flex-end;
 }
 #cabecera #tagline{
     padding:0 0 0 1em;
